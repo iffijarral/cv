@@ -1,40 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./output.css">
-    <title>Curriculum Vitae - Full Stack Developer</title>
+    <title>Curriculum Vitae - Full Stack Udvikler</title>
 </head>
+
 <body class="bg-gray-100">
     <header class="md:w-3/4 max-w-screen-lg bg-white mx-auto text-center border-b pt-4">
         <!-- <img src="./images/iffi.jpg" alt="Iftikhar Ahmed" class="w-32 aspect-square object-cover rounded-full mx-auto"> -->
         <h1 class="text-4xl ">Iftikhar Ahmed </h1>
-        <h2 class="text-2xl text-center"> Full Stack Developer </h2> 
+        <h2 class="text-2xl text-center"> Full Stack Udvikler </h2>
         <div class="md:flex md:divide-x justify-center mt-2">
             <p class="px-2">Hvidovrevej 538, 2650 Hvidovre </p>
             <p class="px-2">91 62 80 48</p>
-            <p class="px-2">ifah0001@stud.kea.dk</p>            
-        </div>        
+            <p class="px-2">ifah0001@stud.kea.dk</p>
+        </div>
     </header>
+    <!-- New Section with Tooltips and Icons -->
+    <section class="md:w-3/4 max-w-screen-lg bg-gray-50 mx-auto text-center p-4 border-b">
+        <h3 class="text-xl font-bold mb-4">Hvad Jeg Kan Tilbyde</h3>
+        <div class="flex flex-col md:flex-row justify-around items-start md:items-center gap-4">
+            <!-- Secure Applications -->
+            <div class="relative group">
+                <h4 class="text-lg font-bold text-gray-800 flex items-center cursor-pointer">
+                    Sikre Applikationer
+                    <span class="ml-2 text-gray-500 group-hover:text-gray-800">
+                        <img src="images/info.webp" class="w-5" alt="info">                          
+                    </span>
+                </h4>
+                <div
+                    class="absolute hidden group-hover:block bg-gray-700 text-white text-sm p-2 rounded-md shadow-lg w-64 -left-24 top-8">
+                    Beskytte mod XSS, CSRF, XXE, SQL Injection og andre sikkerhedsrisici for robuste og sikre applikationer.
+                </div>
+            </div>
+
+            <!-- Accessible Applications -->
+            <div class="relative group">
+                <h4 class="text-lg font-bold text-gray-800 flex items-center cursor-pointer">
+                    Tilgængelige Applikationer
+                    <span class="ml-2 text-gray-500 group-hover:text-gray-800">
+                        <img src="images/info.webp" class="w-5" alt="info">                          
+                    </span>
+                </h4>
+                <div
+                    class="absolute hidden group-hover:block bg-gray-700 text-white text-sm p-2 rounded-md shadow-lg w-64 -left-24 top-8">
+                    Sikre overholdelse af tilgængelighedsstandarder som korrekt farvekontrast, tastaturnavigation, responsivt design og forbedret UI/UX.
+                </div>
+            </div>
+
+            <!-- Modern Architecture -->
+            <div class="relative group">
+                <h4 class="text-lg font-bold text-gray-800 flex items-center cursor-pointer">
+                    Skalerbare Applikationer
+                    <span class="ml-2 text-gray-500 group-hover:text-gray-800">
+                        <img src="images/info.webp" class="w-5" alt="info">                          
+                    </span>
+                </h4>
+                <div
+                    class="absolute hidden group-hover:block bg-gray-700 text-white text-sm p-2 rounded-md shadow-lg w-64 -left-24 top-8">
+                    Udvikling af skalerbare, dockeriserede, multi-tier systemer for problemfri implementering og effektiv ressourcehåndtering.
+                </div>
+            </div>
+        </div>
+    </section>
+
     <main class="md:w-3/4 max-w-screen-lg md:grid md:grid-cols-2 bg-white mx-auto px-4 pb-2 md:divide-x">
         <div>
             <section>
-                <h3>Profile</h3>
+                <h3>Profil</h3>
                 <p>
-                    Dynamisk og motiveret full stack-udvikler med stærke færdigheder inden for cloud computing-udvikling og en passion for at skabe innovative og brugervenlige webløsninger. 
+                    Dynamisk og motiveret full stack-udvikler med stærke færdigheder inden for cloud computing-udvikling
+                    og en passion for at skabe innovative og brugervenlige webløsninger.
                     <span class="font-bold">
-                        Søger en praktikplads for at anvende og videreudvikle mine færdigheder i et professionelt miljø som en del af kravene for at fuldføre mit Web Development Top-up Program.
+                        Søger en praktikplads for at anvende og videreudvikle mine færdigheder i et professionelt miljø
+                        som en del af kravene for at fuldføre mit Web Development Top-up Program.
                     </span>
                 </p>
             </section>
             <section>
-                <h3>Education</h3>
+                <h3>Uddannelse</h3>
                 <ul class="list-none px-2">
                     <li class="pt-2">
                         <p>Fortsætte... (JUNI 2025 forventes)</p>
-                        <p class="font-bold">WEBUDVIKLING <span class="px-1 text-xs">Top-up (professionsbachelor)</span></p>
+                        <p class="font-bold">WEBUDVIKLING <span class="px-1 text-xs">Top-up (professionsbachelor)</span>
+                        </p>
                         <p class="text-xs">KEA - KØBENHAVNS ERHVERVSAKADEMI DENMARK</p>
                     </li>
                     <li class="pt-2">
@@ -47,12 +100,12 @@
                         <p class="font-bold">Bachelor <span class="px-2 text-xs">Computer Science</span></p>
                         <p class="text-xs">VU - VIRTUAL UNIVERSITY PAKISTAN</p>
                     </li>
-                    <li class="pt-2">                        
+                    <li class="pt-2">
                         <p class="font-bold">Certifications</p>
                         <p>Full Stack Cloud Developer</p>
                         <p class="text-xs">IBM Skills Network</p>
                     </li>
-                    
+
                 </ul>
             </section>
             <section>
@@ -64,66 +117,71 @@
                         <p class="text-xs">MTM - MASOOD TEXTILE MILLS PAKISTAN</p>
                         <ul class="list-disc px-2">
                             <li class="pt-2">Opbygning af responsive og tilgængelige webgrænseflader.</li>
-                            <li class="pt-2">Implementering af brugergrænsefladekomponenter og interaktioner baseret på designmodeller og wireframes.</li>
-                            <li class="pt-2">Optimering af frontend-ydeevne for at sikre hurtige indlæsningstider og jævn brugeroplevelse.</li>
-                            <li class="pt-2">Oprettelse af RESTful APIs-endepunkter til at kommunikere med frontend.</li>
-                            <li class="pt-2">Håndtering af databaser og design af effektive databaseskemaer.</li>                                                        
+                            <li class="pt-2">Implementering af brugergrænsefladekomponenter og interaktioner baseret på
+                                designmodeller og wireframes.</li>
+                            <li class="pt-2">Optimering af frontend-ydeevne for at sikre hurtige indlæsningstider og
+                                jævn brugeroplevelse.</li>
+                            <li class="pt-2">Oprettelse af RESTful APIs-endepunkter til at kommunikere med frontend.
+                            </li>
+                            <li class="pt-2">Håndtering af databaser og design af effektive databaseskemaer.</li>
                             <li class="pt-2">Kommunikation af projektstatus og tekniske udfordringer.</li>
                         </ul>
-                    </li>                                       
-                </ul>                
+                    </li>
+                </ul>
             </section>
             <section>
                 <h3>Nyttige links</h3>
                 <p class="font-bold py-1">Code Repositories</p>
-                <a class="text-blue-500" href="https://github.com/iffijarral" target="_blank">https://github.com/iffijarral</a>
+                <a class="text-blue-500" href="https://github.com/iffijarral"
+                    target="_blank">https://github.com/iffijarral</a>
                 <p class="font-bold py-1">Professionel profil</p>
-                <a class="text-blue-500" href="https://linkedin.com/in/iftikhar-ahmed-0172132bb/" target="_blank">https://linkedin.com/in/iftikhar-ahmed-0172132bb/</a>
+                <a class="text-blue-500" href="https://linkedin.com/in/iftikhar-ahmed-0172132bb/"
+                    target="_blank">https://linkedin.com/in/iftikhar-ahmed-0172132bb/</a>
             </section>
         </div>
         <div class="pl-4">
             <section>
                 <h3>Færdigheder</h3>
-                
-                
+
+
                 <article>
                     <p class="font-bold">Programmeringssprog</p>
                     <div class="flex gap-2 justify-between">
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
                                 Python
                                 <ul class="list-outside">
                                     <li class="empty-disc">&#8226; Bottle</li>
                                     <li class="empty-disc">&#8226; Flask</li>
-                                    <li class="empty-disc">&#8226; Django</li>                                                                            
+                                    <li class="empty-disc">&#8226; Django</li>
                                 </ul>
-                            </li>                                                         
+                            </li>
                         </ul>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
                                 PHP
                                 <ul class="list-outside">
-                                    <li class="empty-disc">&#8226; Vanilla PHP</li>                                        
+                                    <li class="empty-disc">&#8226; Vanilla PHP</li>
                                     <li class="empty-disc">&#8226; Laravel</li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li>
                                 TypeScript
-                            </li>                                                        
+                            </li>
                         </ul>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
                                 Javascript
                             </li>
-                            <li> 
-                                ReactJS                                     
-                            </li> 
+                            <li>
+                                ReactJS
+                            </li>
                             <li>
                                 NodeJS
                                 <ul class="list-outside">
-                                    <li class="empty-disc">&#8226; ExpressJS</li>                                        
+                                    <li class="empty-disc">&#8226; ExpressJS</li>
                                 </ul>
-                            </li>                                                         
+                            </li>
                         </ul>
                     </div>
                 </article>
@@ -132,152 +190,161 @@
                         <p class="font-bold">Markup</p>
                         <ul class="list-disc px-2">
                             <li class="py-1">
-                                HTML5                        
+                                HTML5
                             </li>
-                        </ul> 
+                        </ul>
                         <p class="font-bold">Styling</p>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">CSS3</li>
                             <li class="py-1">Sass</li>
                             <li class="py-1">Tailwind</li>
-                            <li class="py-1">Bootstrap</li>                    
-                        </ul>                        
+                            <li class="py-1">Bootstrap</li>
+                        </ul>
                     </article>
                     <article>
                         <p class="font-bold">Databases</p>
-                        <ul class="list-disc px-2">   
+                        <ul class="list-disc px-2">
                             <li>
                                 Relational
                                 <ul class="list-outside">
                                     <li class="empty-disc">&#8226; SQlite</li>
-                                    <li class="empty-disc">&#8226; MySQL</li>                                                                   
-                                </ul>                 
-                            </li>                                                                         
+                                    <li class="empty-disc">&#8226; MySQL</li>
+                                </ul>
+                            </li>
                             <li>
                                 Document
                                 <ul class="list-outside">
                                     <li class="empty-disc">&#8226; ArangoDB</li>
-                                    <li class="empty-disc">&#8226; MongoDB</li>                                                                   
+                                    <li class="empty-disc">&#8226; MongoDB</li>
                                 </ul>
-                            </li>                            
-                        </ul>                       
+                            </li>
+                        </ul>
                     </article>
                     <article>
                         <p class="font-bold">APIs</p>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
-                                RESTful APIs                               
-                            </li>                                                         
+                                RESTful APIs
+                            </li>
                             <li class="py-1">
-                                GraphQL APIs                      
-                            </li> 
+                                GraphQL APIs
+                            </li>
                             <li class="py-1">
                                 WebSocket
-                            </li>                                                         
+                            </li>
                         </ul>
                         <p class="font-bold">Versioning</p>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
-                                Git                              
-                            </li>                                                                                                                                             
-                        </ul>                                                 
+                                Git
+                            </li>
+                        </ul>
                     </article>
                     <article>
                         <p class="font-bold">Miscellaneous</p>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
-                                UX/UI Design                              
+                                UX/UI Design
                             </li>
                             <li class="py-1">
                                 Shell Scripting
-                            </li>                            
+                            </li>
                         </ul>
-                    </article>                                                           
+                    </article>
                     <article>
                         <p class="font-bold">Cloud Computing</p>
-                        <ul class="list-disc px-2">                    
+                        <ul class="list-disc px-2">
                             <li class="py-1">
-                                Containerization (Docker)                             
+                                Containerization (Docker)
                             </li>
                             <li class="py-1">
-                                Orchestration (Kubernetes) 
-                                
-                            </li>                                                                                                                                             
+                                Orchestration (Kubernetes)
+
+                            </li>
                             <li class="py-1">
                                 CI/CD pipelines
-                            </li>                                                                                                                                             
+                            </li>
                             <li class="py-1">
                                 OpenShift
-                            </li>                                                                                                                                             
+                            </li>
                         </ul>
                     </article>
                 </div>
-                
+
             </section>
             <section>
                 <h3>Projekter</h3>
 
-                <ul class="list-disc px-2 py-1">    
+                <ul class="list-disc px-2 py-1">
                     <li class="py-1">
-                        <a class="text-blue-500" href="https://iffijarral.eu.pythonanywhere.com/" target="_blank">Accommodation Booking App</a>
+                        <a class="text-blue-500" href="https://iffijarral.eu.pythonanywhere.com/"
+                            target="_blank">Accommodation Booking App</a>
                         <p class="text-xs">
-                            Udviklet en platform, der ligner Airbnb, der gør det muligt for brugere at opdage, booke og være vært for unikke boliger.
-                        </p>                              
-                    </li>                 
+                            Udviklet en platform, der ligner Airbnb, der gør det muligt for brugere at opdage, booke og
+                            være vært for unikke boliger.
+                        </p>
+                    </li>
                     <li class="py-1">
-                        <a class="text-blue-500" href="https://rah-maler.onrender.com" target="_blank">RAH Maler</a>
+                        <div><a class="text-blue-500" href="https://rah-maler.onrender.com" target="_blank">RAH Maler</a><span class="text-xs"> (Dette kan tage et øjeblik ved første besøg.)</span></div>
                         <p class="text-xs">
-                            Udviklet en app til et malerfirma, der tilbyder en række tjenester, herunder indendørs og udendørs maling, sparling, renoveringer mm.
-                        </p>                              
-                    </li>                                                                                                                                             
+                            Udviklet en app til et malerfirma, der tilbyder en række tjenester, herunder indendørs og
+                            udendørs maling, sparling, renoveringer mm.
+                        </p>
+                    </li>
                     <li class="py-1">
-                        <a class="text-blue-500" href="https://meal-recipes-42lb5v36b-iffijarrals-projects.vercel.app/" target="_blank">Meal Recipes</a>
+                        <a class="text-blue-500" href="https://meal-recipes-42lb5v36b-iffijarrals-projects.vercel.app/"
+                            target="_blank">Meal Recipes</a>
                         <p class="text-xs">
-                            En app, der giver brugerne en mangfoldig samling af måltidsopskrifter og muligheder for at filtrere dem. Desuden madlavningsvejledning for at forbedre den kulinariske oplevelse.
-                        </p>                              
-                    </li>                                                                                                                                             
+                            En app, der giver brugerne en mangfoldig samling af måltidsopskrifter og muligheder for at
+                            filtrere dem. Desuden madlavningsvejledning for at forbedre den kulinariske oplevelse.
+                        </p>
+                    </li>
                     <li class="py-1">
-                        <a class="text-blue-500" href="https://iffijarral.github.io/drivingschool/" target="_blank">Driving School</a>
+                        <a class="text-blue-500" href="https://iffijarral.github.io/drivingschool/"
+                            target="_blank">Driving School</a>
                         <p class="text-xs">
                             Lavet en brugervenlig hjemmeside for en køreskole, med pakker og anden relevant information.
-                        </p>                              
-                    </li>                                                                                                                                             
-                                                                                                                                                                
+                        </p>
+                    </li>
+
                 </ul>
-                
+
                 <p>
                     <span class="font-bold">Udviklet, men ikke tilgængelig online</span>
                     Følgende er nogle projekter, som jeg har udviklet, men ikke længere på internettet
                 </p>
-                <ul class="list-disc px-2 py-2">                    
+                <ul class="list-disc px-2 py-2">
                     <li class="py-1">
                         <p>Courier Management System</p>
                         <p class="text-xs">
                             En desktop-baseret applikation til et kurerfirma.
-                        </p>                              
+                        </p>
                     </li>
                     <li class="py-1">
                         <p>Employee Scheduling System</p>
                         <p class="text-xs">
-                            En webbaseret applikation udviklet til en virksomhed til at styre medarbejderes skift og tidsplan.
-                        </p>                              
+                            En webbaseret applikation udviklet til en virksomhed til at styre medarbejderes skift og
+                            tidsplan.
+                        </p>
                     </li>
                     <li class="py-1">
                         <p>An online pizza shop</p>
                         <p class="text-xs">
                             En webapplikation, hvor brugere kan se en given menu og afgive ordre(r).
-                        </p>                              
-                    </li>                                                                         
+                        </p>
+                    </li>
                     <li class="py-1">
                         <p>A search engine for "The Holly Quran"</p>
                         <p class="text-xs">
-                            En applikation, hvormed vi kan forespørge og finde ud af, hvad The Holly Quran siger om et givet emne.
-                        </p>                              
-                    </li>                                                                         
+                            En applikation, hvormed vi kan forespørge og finde ud af, hvad The Holly Quran siger om et
+                            givet emne.
+                        </p>
+                    </li>
 
                 </ul>
             </section>
         </div>
     </main>
 </body>
+
 </html>
